@@ -3,41 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
-   <style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+    <title>Site de Teste</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
 
-    table {
+        table {
         border-collapse: collapse;
-    }
+        }
 
-    caption {
+        caption {
         font-size: 1.2em;
         font-weight: bolder;
         padding: 20px;
-    }
+        }
 
-    th, td {
+        th, td {
         border: 1px solid black;
         padding: 10px;
-    }
+        }
 
-    tr:nth-child(even) {
+        tr:nth-child(even) {
         background-color: rgb(230, 230, 230);
-    }
+        }
 
-    #container {
-        overflow-x: auto;
-    }
+        tr:nth-child(odd) {
+        background-color: white;
+        }
 
-   </style>
+    </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, libero. Obcaecati maxime quisquam officiis, eum rem temporibus in esse sed quo quam quaerat fuga vel ut atque aspernatur reiciendis libero.</p>
-    <div id="container">
         <table>
             <caption>Tabelas responsivas</caption>
             <thead>
@@ -165,6 +163,5 @@
                 </tr>
             </tbody>
         </table>
-    </div>
 </body>
 </html>
